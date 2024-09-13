@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+:root {
+  --main-color: #242424;
+  --secondary-color: #dd1470;
+}

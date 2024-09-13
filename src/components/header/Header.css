@@ -1,0 +1,132 @@
+header {
+  width: 100%;
+}
+
+.header_top {
+  width: 100%;
+  height: 44px;
+  padding: 10px 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+.header_top > .right,
+.header_top > .left {
+  display: flex;
+  gap: 16px;
+}
+
+.header_top > .right a,
+.header_top > .left a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--main-color);
+  font-weight: 250;
+}
+.header_top > .right a svg,
+.header_top > .left a svg {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.header_top > .right .lang {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header_top > .right .lang img {
+  width: 17px;
+  height: 17px;
+}
+
+.header_top > .right .lang span {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.header_top > .right .lang svg {
+  font-size: 12px;
+  color: #999;
+}
+
+.languages {
+  width: 346px;
+  height: 166px;
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 22px #0000001c;
+  padding: 24px 34px 10px;
+}
+
+.languages::after {
+  box-shadow: -4px -4px 6px #00000008;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  content: "";
+}
+
+.languages .languages_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.languages .languages_item label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.languages h3 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.languages .languages_item img {
+  width: 30px;
+}
+
+.languages .languages_item:hover {
+  color: var(--secondary-color);
+}
+
+nav {
+  background-color: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 30px;
+  gap: 40px;
+}
+
+nav img.logo {
+  width: 105px;
+}
+nav .searchbar {
+  display: flex;
+  align-items: center;
+  background-color: red;
+  padding: 10px;
+  flex: 1;
+}
+
+nav .navLinks {
+  display: flex;
+  align-items: center;
+}
