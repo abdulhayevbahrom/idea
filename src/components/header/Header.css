@@ -107,7 +107,6 @@ header {
 }
 
 nav {
-  background-color: dodgerblue;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,15 +117,120 @@ nav {
 nav img.logo {
   width: 105px;
 }
-nav .searchbar {
+
+nav .catalogBtn {
+  padding: 12px 24px;
   display: flex;
   align-items: center;
-  background-color: red;
-  padding: 10px;
+  gap: 5px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+nav .catalogBtn svg {
+  font-size: 16px;
+}
+
+nav .searchbar {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
   flex: 1;
+  background-color: #f2f2f2;
+  height: 46px;
+  overflow: hidden;
+}
+
+nav .searchbar input {
+  border-radius: 8px 0 0 8px;
+  height: 100%;
+  border: none;
+  flex: 1;
+  outline: none;
+  text-indent: 15px;
+  background-color: transparent;
+}
+
+nav .searchbar input::placeholder {
+  color: #222;
+}
+
+nav .searchbar .glass {
+  width: 76px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 20px;
+  color: #9499a5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav .searchbar .glass:hover {
+  background-color: #d4d1d1;
 }
 
 nav .navLinks {
   display: flex;
   align-items: center;
+}
+
+nav .searchbar input:focus + .glass {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+nav .searchbar input:focus {
+  border: 1px solid var(--secondary-color);
+}
+
+nav .navLinks {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+nav .navLinks a {
+  width: 73px;
+  height: 47px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+nav .navLinks a span {
+  position: absolute;
+  top: -7px;
+  right: 10px;
+  background-color: #ffbf3c;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+nav .navLinks a p {
+  color: #282f3c;
+  font-size: 12px;
+}
+
+nav .navLinks a svg {
+  font-size: 23px;
+  color: #000;
+}
+
+nav .navLinks a:nth-child(3) svg {
+  font-size: 27px;
+}
+
+nav .navLinks a:hover p,
+nav .navLinks a:hover svg {
+  color: var(--secondary-color);
 }

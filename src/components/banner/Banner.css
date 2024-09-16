@@ -1,0 +1,53 @@
+.banner {
+  width: 100%;
+  height: 380px;
+  background-color: #f2f3f5;
+  display: flex;
+  gap: 17px;
+  padding: 25px 3%;
+}
+
+.banner :where(.bannerLeft, .bannerRight) {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.banner .bannerLeft {
+  overflow: hidden;
+}
+
+.banner .bannerRight {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 17px;
+}
+
+.banner .bannerRight img {
+  width: 100%;
+  height: 96%;
+  border-radius: 10px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

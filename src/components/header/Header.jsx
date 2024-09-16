@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
-import { LuShoppingBag } from "react-icons/lu";
 import { LiaBalanceScaleSolid } from "react-icons/lia";
+import { LuShoppingBag } from "react-icons/lu";
 import { LuUser2 } from "react-icons/lu";
 
 function Header() {
