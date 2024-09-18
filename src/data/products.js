@@ -109,3 +109,202 @@ export const maishiyTexnika = [
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
   },
 ];
+
+export const smartPhones = [
+  {
+    id: 1,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 2,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 3,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 4,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 5,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 6,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+  {
+    id: 7,
+    name: "Смартфон Nova Y61 4/128 Midnight Black",
+    price: 1790000,
+    images: [
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FTB4weciZiaQI4HhjC2dY.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FF3ouGNOmCkd7W2cWO2ry.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FBLlkPYrHOxLDar9vsK0m.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FMKaqV5qkT2MtpLNX2YUV.png&w=3840&q=75",
+      "https://idea.uz/_next/image?url=https%3A%2F%2Fapi.idea.uz%2Fstorage%2Fproducts%2FSeptember2024%2FcGpMaiBhfXxP8jRkRRBA.png&w=3840&q=75",
+    ],
+    brend: "Huawei",
+    description:
+      "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
+    storage: {
+      ram: 4,
+      rom: 128,
+    },
+    display: "6.52",
+    camera: {
+      front: 64,
+      back: 8,
+    },
+    battery: {
+      capacity: 5000,
+      type: "Li-Ion",
+    },
+  },
+];
