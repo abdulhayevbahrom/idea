@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
 import Products from "../../components/products/Products";
-import Wrapper from "./components/wrapper/Wrapper";
+import Wrapper from "../../components/wrapper/Wrapper";
 import { smartPhones, maishiyTexnika, HouseholdAppliances, smallAppliancesForTheHome } from "../../data/products";
 
 function Home() {

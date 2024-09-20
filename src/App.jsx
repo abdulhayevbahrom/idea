@@ -3,7 +3,6 @@ import Header from "./components/header/Header";
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/Home";
 import Heart from "./routes/heart/Heart";
-import Wrapper from "./components/wrapper/Wrapper";
 
 function App() {
   return (
