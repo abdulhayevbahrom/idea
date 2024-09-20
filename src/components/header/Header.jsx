@@ -8,8 +8,10 @@ import { FaRegHeart } from "react-icons/fa6";
 import { LiaBalanceScaleSolid } from "react-icons/lia";
 import { LuShoppingBag } from "react-icons/lu";
 import { LuUser2 } from "react-icons/lu";
+import { useSelector } from "react-redux";
 
 function Header() {
+  const heartData = useSelector((s) => s.heart);
   return (
     <header>
       <Headertop />
@@ -33,7 +35,7 @@ function Header() {
         <div className="navLinks">
           <Link to={"/heart"}>
             <FaRegHeart />
-            <span>0</span>
+            <span>{heartData.length}</span>
             <p>Tanlanganlar</p>
           </Link>
           <Link to={"/heart"}>
@@ -41,7 +43,7 @@ function Header() {
             <span>0</span>
             <p>Savatcha</p>
           </Link>
-          <Link to={"/heart"}>
+          <Link to={"/compare"}>
             <LiaBalanceScaleSolid />
             <span>0</span>
             <p>Taqqoslash</p>

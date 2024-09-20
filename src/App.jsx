@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/Home";
 import Heart from "./routes/heart/Heart";
+import SinglePage from "./routes/singlePage/SinglePage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/heart" element={<Heart />} />
+        <Route path="/singlepage/:id" element={<SinglePage />} />
       </Routes>
     </div>
   );

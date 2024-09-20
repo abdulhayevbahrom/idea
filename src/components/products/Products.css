@@ -53,6 +53,10 @@
   color: #d0d3d8;
 }
 
+.products .mySwiper .product_slide_item .product_actions .redHeart {
+  color: #eb5758;
+}
+
 .products .mySwiper .product_slide_item .product_actions svg:first-child {
   font-size: 26px;
   opacity: 0;

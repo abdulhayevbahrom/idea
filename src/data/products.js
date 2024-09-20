@@ -112,7 +112,7 @@ export const maishiyTexnika = [
 
 export const smartPhones = [
   {
-    id: 1,
+    id: 8,
     name: "Смартфон Nova Y61 4/128 Midnight Black",
     price: 1790000,
     images: [
@@ -140,7 +140,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 2,
+    id: 9,
     name: "Smartfon Redmi 13 8/128 Ocean Blue",
     price: 2890000,
     images: [
@@ -167,7 +167,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 3,
+    id: 10,
     name: "Smartfon Redmi 13 8/128 Ocean Blue",
     price: 2890000,
     images: [
@@ -194,7 +194,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 4,
+    id: 11,
     name: "Smartfon TECNO Spark 20 Pro+ 8/256 Vaqtinchalik orbitalar",
     price: 2790000,
     images: [
@@ -220,7 +220,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 5,
+    id: 12,
     name: "Smartfon Tecno Camon 30 8/256 Bazaltik Dark",
     price: 2890000,
     images: [
@@ -248,7 +248,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 6,
+    id: 13,
     name: "Smartfon Tecno Camon 30 8/256 Uyuni Tuz Oq",
     price: 2890000,
     images: [
@@ -275,7 +275,7 @@ export const smartPhones = [
     },
   },
   {
-    id: 7,
+    id: 14,
     name: "Smartfon Apple iPhone 15 256 GB qora",
     price: 14590000,
     images: [
@@ -304,7 +304,7 @@ export const smartPhones = [
 
 export const HouseholdAppliances = [
   {
-    id: 1,
+    id: 15,
     name: "Морозильная камера KLEO KDF 400 IC",
     price: 6990000,
     images: [
@@ -319,7 +319,7 @@ export const HouseholdAppliances = [
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
   },
   {
-    id: 2,
+    id: 16,
     name: "Стиральная машина Premier PRM70F1201LIN/DG",
     price: 4390000,
     images: [
@@ -335,7 +335,7 @@ export const HouseholdAppliances = [
       "Premier Smart TV mijozlarga foydalanish uchun keng imkoniyatlarni taqdim etadi. Onlayn kinoteatrni tomosha qilishdan tashqari siz televizoringizni tashqi displey sifatida ulashingiz yoki ilovalarni oʻrnatishingiz mumkin. Yozishga vaqtingizni behuda sarflamang. Premier Smart TV-da ovozli qidiruv natijalarni tezroq olishga yordam beradi",
   },
   {
-    id: 3,
+    id: 17,
     name: "Стиральная машина Premier PRM70F1201LIN/W",
     price: 4099000,
     images: [
@@ -351,7 +351,7 @@ export const HouseholdAppliances = [
       "LG F2M5HS6W kir yuvish mashinasi ko‘plab afzalliklarga ega, jumladan, katta sig‘im, foydalanish qulayligi, shuningdek, jozibali dizayn. Uning tuzilmasida yuvish jarayonini sezilarli darajada osonlashtiruvchi 14 ta yuvish dasturi taqdim etailgan, va bu bilan siz ma'lum bir turdagi mato uchun kerakli rejimni tanlashingiz mumkin. Siqish vaqtida bu modelning barabani",
   },
   {
-    id: 4,
+    id: 18,
     name: "Газовая плита Artel Milagro 02-G Черный",
     price: 3790000,
     images: [
@@ -368,7 +368,7 @@ export const HouseholdAppliances = [
   },
  
   {
-    id: 5,
+    id: 19,
     name: "Газовая плита Shivaki 6402-G Серый",
     price: 3790000,
     images: [
@@ -384,7 +384,7 @@ export const HouseholdAppliances = [
       "Premier Smart TV mijozlarga foydalanish uchun keng imkoniyatlarni taqdim etadi. Onlayn kinoteatrni tomosha qilishdan tashqari siz televizoringizni tashqi displey sifatida ulashingiz yoki ilovalarni oʻrnatishingiz mumkin. Yozishga vaqtingizni behuda sarflamang. Premier Smart TV-da ovozli qidiruv natijalarni tezroq olishga yordam beradi",
   },
   {
-    id: 6,
+    id: 20,
     name: "Газовая плита Shivaki 6300-K Eco Cepый",
     price: 2790000,
     images: [
@@ -399,7 +399,7 @@ export const HouseholdAppliances = [
       "Premier Smart TV mijozlarga foydalanish uchun keng imkoniyatlarni taqdim etadi. Onlayn kinoteatrni tomosha qilishdan tashqari siz televizoringizni tashqi displey sifatida ulashingiz yoki ilovalarni oʻrnatishingiz mumkin. Yozishga vaqtingizni behuda sarflamang. Premier Smart TV-da ovozli qidiruv natijalarni tezroq olishga yordam beradi",
   },
   {
-    id: 7,
+    id: 21,
     name: "Газовая плита Shivaki 6402-G Серый",
     price: 3790000,
     images: [
@@ -418,7 +418,7 @@ export const HouseholdAppliances = [
 
 export const smallAppliancesForTheHome = [
   {
-    id: 1,
+    id: 22,
     name: "Temir Polaris PIR 2668AK",
     price: 899000,
     images: [
@@ -434,7 +434,7 @@ export const smallAppliancesForTheHome = [
       "Dazmol Polaris PIR 2668AK - 2,6 kVt quvvatga ega va keramik taglik bilan bir xil issiqlik taqsimoti bilan yuqori sifatli dazmollashni ta'minlaydi. 350 ml suv idishi sig‘imi va 50 g/min doimiy bug‘ ta’minoti bilan u qalin matolar bilan ham bardosh beradi va 190 g/min bug‘ ko‘tarish qiyin burmalarni osonlik bilan tekislaydi.Vertikal bug‘ funksiyasi kiyimlarni to‘g‘ridan-to‘g‘ri ilgichda qulay tarzda dazmollash imkonini beradi, o‘z-o‘zini tozalash funksiyasi",
   },
   {
-    id: 2,
+    id: 23,
     name: "Temir Polaris PIR 2695AK",
     price: 919000,
     images: [
@@ -452,7 +452,7 @@ export const smallAppliancesForTheHome = [
       "Iron Polaris PIR 2695AK - 2,6 kVt quvvatga ega va ultra chidamli PRO 5 Seramika qoplamasi SMART HEAT texnologiyasi tufayli issiqlikning bir tekis taqsimlanishini ta'minlaydi. 300 ml suv idishi va doimiy 50 g/min bug 'chiqishi bilan u har qanday mato bilan kurashadi, 190 g/min bug' ko'tarish esa eng qattiq burmalarni ham olib tashlashga yordam beradi.",
   },
   {
-    id: 3,
+    id: 24,
     name: "Dazmol POLARIS PIR 3074 SG",
     price: 1029000,
     images: [
@@ -470,7 +470,7 @@ export const smallAppliancesForTheHome = [
       "Dazmol POLARIS PIR 3074 SG - 3 kVt quvvatga ega va metall-keramika tagligi samarali va silliq dazmollashni ta'minlaydi. Uning keng 300 ml suv idishi va doimiy 50 g/min bug‘i dazmollashni tez va oson qiladi, 260 g/min bug‘ ko‘tarish esa eng o‘jar burmalarni ham engadi.",
   },
   {
-    id: 4,
+    id: 25,
     name: "CHAYKA Power100 tikuv mashinasi",
     price: 1650000,
     images: [
@@ -487,7 +487,7 @@ export const smallAppliancesForTheHome = [
   },
  
   {
-    id: 5,
+    id: 26,
     name: "CHAYKA HomePro tikuv mashinasi",
     price: 2350000,
     images: [
@@ -505,7 +505,7 @@ export const smallAppliancesForTheHome = [
     "CHAYKA HomePro elektromexanik tikuv mashinasi uy uchun yaxshi va ishonchli mashina qidirayotganlar uchun ajoyib tanlov bo'ladi.Ushbu model 34 ta asosiy tikuv operatsiyalarini, shu jumladan avtomatik rejimda tugma teshiklarini bajaradi. CHAYKA HomePro-dan foydalanish oson, o‘rnatilgan igna o‘tkazgich tufayli siz ignani bemalol ip bilan bog‘lashingiz mumkin. CHAYKA HomePro",
   },
   {
-    id: 6,
+    id: 27,
     name: "Maishiy changyutgich Karcher WD 2 Plus V-12/4/18/C (YYY) *EI",
     price:  1445000,
     images: [
@@ -519,7 +519,7 @@ export const smallAppliancesForTheHome = [
       "Karcher WD 2 Plus V-12/6/18/C (YYY) EU 1.628-015.0 maishiy changyutgich o'zining yuqori assimilyatsiya quvvati va energiya tejamkorligi bilan hayratga soladi - quvvat sarfi atigi 1000 Vt. Bu kichik va katta o'lchamdagi quruq va ho'l qoldiqlarni yig'ish uchun ajoyib natijalarni kafolatlaydi. Ushbu maishiy changyutgich zarbaga chidamli 12 litrli plastik axlat qutisi, 6 metrli kabel, to‘g‘ri tutqichli 1,8 metrli assimilyatsiya shlangi,",
   },
   {
-    id: 7,
+    id: 28,
     name: "Maishiy changyutgich Karcher WD 3 S V-17/4/20 (YSY) *EU",
     price: 1785000,
     images: [
