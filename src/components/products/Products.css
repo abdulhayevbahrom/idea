@@ -126,13 +126,19 @@
 
 .products .mySwiper .product_slide_item .buy_product button:first-child {
   flex: 1;
+  background-color: #f2f2f2;
+  color: #000;
 }
 
 .products .mySwiper .product_slide_item .buy_product button:nth-child(2) {
   width: 48px;
   height: 48px;
-  background-color: #dd1470;
+  transition: 0.3s;
   color: #fff;
+}
+
+.products .mySwiper .product_slide_item .buy_product button:nth-child(2):hover {
+  background-color: #c70f62;
 }
 
 .products .mySwiper .product_slide_item .buy_product button:nth-child(2) svg {
