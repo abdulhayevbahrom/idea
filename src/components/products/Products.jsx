@@ -1,18 +1,23 @@
 import React from "react";
 import "./Products.css";
 import { Link } from "react-router-dom";
-import { FaArrowRight, FaRegHeart } from "react-icons/fa6";
+import { FaArrowRight, FaHeart, FaRegHeart } from "react-icons/fa6";
 import { LiaBalanceScaleSolid } from "react-icons/lia";
 import { LuShoppingBag } from "react-icons/lu";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { useDispatch, useSelector } from "react-redux";
+import { addToHeart, removefromHeart } from "../../context/heartSlice";
 
 function Products({ title, data }) {
+  const dispatch = useDispatch();
+  const heartData = useSelector((s) => s.heart);
+  const addToFavorites = (product) => {
+    dispatch(addToHeart(product));
+  };
   return (
     <div className="products">
       <div className="products_navigation">
@@ -32,9 +37,16 @@ function Products({ title, data }) {
           <SwiperSlide key={index} className="product_slide_item">
             <div className="product_actions">
               <LiaBalanceScaleSolid />
-              <FaRegHeart />
+              {heartData.some((i) => i.id === item.id) ? (
+                <FaHeart
+                  className="redHeart"
+                  onClick={() => dispatch(removefromHeart(item.id))}
+                />
+              ) : (
+                <FaRegHeart onClick={() => addToFavorites(item)} />
+              )}
             </div>
-            <Link to={"/"} className="product_img">
+            <Link to={`singlepage/${item.id}`} className="product_img">
               <img src={item.images[0]} alt="" />
             </Link>
             <b>{item.price} so'm</b>
