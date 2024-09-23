@@ -1,0 +1,168 @@
+.card {
+    width: 100%;
+    height: auto;
+    background-color: #eee;
+    padding: 0 50px 50px 50px;
+}
+
+.card p {
+    padding: 30px 0;
+}
+
+.card p span {
+    color: crimson;
+}
+
+.card p span svg {
+    margin: 0 5px;
+    padding-top: 3px;
+}
+
+
+.savatcha {
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 15px;
+}
+
+.savatcha p {
+    font-size: 14px;
+}
+
+.savatcha img {
+    width: 330px;
+    margin-bottom: 70px;
+}
+
+.savatcha button {
+    padding: 13px 35px;
+    background-color: #dd1470;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.savatcha button:hover {
+    background-color: #770136;
+}
+
+.basket {
+    width: 100%;
+    height: auto;
+    /* background-color: #fff; */
+    display: flex;
+    gap: 15px;
+}
+
+.basket .left {
+    width: 75%;
+    height: auto;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.cart_item {
+    width: 100%;
+    height: 45%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #a3a1a1;
+    padding: 0 2%;
+}
+
+.cart_item .iphone {
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+}
+
+.cart_item .iphone .link {
+    display: block;
+}
+
+.som {
+    display: flex;
+    align-items: end;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    font-size: 32px;
+    color: #444;
+}
+
+.icons svg:hover {
+    transition: 0.5s;
+    color: #dd1470;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon .minus,
+.plus {
+    width: 35px;
+    height: 35px;
+    margin: 0 15px;
+    background-color: #eee;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon .plus:hover {
+    border: 1px solid #dd1470;
+}
+
+.icon .minus:hover {
+    border: 1px solid #dd1470;
+}
+
+.nol {
+    display: flex;
+    align-items: center;
+}
+
+.basket .right {
+    width: 26%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 30px;
+
+}
+
+.basket .right button {
+    padding: 12px 97px;
+    border: 1px solid #dd1470;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #dd1470;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.basket .right button:hover {
+    background-color: #770136;
+    color: #fff;
+}

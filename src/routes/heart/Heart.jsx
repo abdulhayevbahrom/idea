@@ -43,20 +43,25 @@ function Heart() {
           <div className="tanlanganlar">
             {heartData.map((item, index) => (
               <div key={index} className="tanlangan">
-                <img src={item.images[0]} alt="" />
-                <div className="lorem">
-                  <div className="som">
-                    <h2>{Math.round(item.price / 6)} soʻm</h2>
-                    <span> x 6 oy</span>
+                <div className="left">
+                  <img src={item.images[0]} alt="" />
+
+                  <div className="lorem">
+                    <div className="som">
+                      <h2>{Math.round(item.price / 6)} soʻm</h2>
+                      <span> x 6 oy</span>
+                    </div>
+                    <Link to={`singlepage/${item.id}`} className="link">
+                      {item.name}
+                    </Link>
+                    <span>Mahsulot kodi: 4688</span>
                   </div>
-                  <Link to={`singlepage/${item.id}`} className="link">
-                    {item.name}
-                  </Link>
-                  <span>Mahsulot kodi: 4688</span>
                 </div>
-                <GoTrash onClick={() => dispatch(removefromHeart(item.id))} />
-                <LuShoppingBag />
-                <LiaBalanceScaleSolid />
+                <div>
+                  <GoTrash onClick={() => dispatch(removefromHeart(item.id))} />
+                  <LuShoppingBag />
+                  <LiaBalanceScaleSolid />
+                </div>
               </div>
             ))}
           </div>
