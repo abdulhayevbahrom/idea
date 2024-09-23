@@ -533,3 +533,9 @@ export const smallAppliancesForTheHome = [
       "Energiyani tejaydigan qurilma WD 3 S V-17/4/20 kam quvvat sarfi (faqat 1000 Vt) bilan yuqori assimilyatsiya quvvatini rivojlantiradi. U assimilyatsiya shlangi va o'rnatilgan pol nozullari bilan optimal tarzda birlashtirilib, barcha turdagi qoldiqlar - quruq yoki ho'l, katta yoki kichik uchun ajoyib yig'ish natijalarini ta'minlaydi. Ushbu ajoyib ixcham uy changyutgichi 17 litrli zanglamaydigan po'latdan yasalgan mustahkam axlat qutisi, 4 metrli kabel, 2 metrli assimilyatsiya shlangi va to'qilmagan filtrli",
   },
 ]
+
+export const compareData = [{
+  "id": 1,
+  img: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTvEFfg1VL-sZG9njQbL0ZP0b3iUK7_q18ChUme2uVicHbhFX6tDU2_A9UWu7AY3YBEBwVkZYWER8_aHMM5oJtsWdVCJygFWlcP4K9brf9pp342_MwemOxrT043xxcaCkxDEn6vHRVN36E&usqp=CAc",
+  p: "Смартфон Xiaomi Redmi 13 6/128 Midnight Black",
+}];

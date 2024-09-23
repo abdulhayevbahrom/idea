@@ -1,0 +1,156 @@
+.compare {
+    width: 100%;
+    background-color: #f2f3f5;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.compare p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.compare p span {
+    gap: 10px;
+    color: crimson;
+    display: flex;
+    align-items: center;
+}
+
+.compare .cards {
+    width: 100%;
+    height: 386px;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #fff;
+    margin-top: 23px;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.compare .cards .card {
+    width: 220px;
+    height: 275px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.compare .cards .card > .card_img {
+    width: 188px;
+    display: grid;
+    place-items: center;
+    height: 174px;
+}
+
+.compare .cards .card > .card_img > img {
+    width: 160px;
+    height: 160px;
+}
+
+.compare .cards .card > .trash {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #9499a5;
+    width: 20px;
+    height: 20px;
+}
+
+
+.compare .cards > a {
+    width: 220px;
+    height: 275px;
+    text-decoration: none;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 30px;
+    color: #282f3c;
+}
+
+.compare .cards > a > svg {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #9499a5;
+}
+
+.compare .cards > p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #282f3c;
+    font-size: 18px;
+}
+
+ 
+
+
+/*    
+  .empty > p {
+    font-size: 14px;
+  }
+  
+  .empty img {
+    width: 250px;
+    margin-bottom: 70px;
+  }
+  
+  .empty button {
+    padding: 13px 35px;
+    background-color: #dd1470;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .empty button:hover {
+    background-color: #770136;
+  }
+    */
+
+    .empty {
+        width: 100%;
+        height: 541px;
+        background-color: #fff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        line-height: 15px;
+       }
+
+    .empty > p {
+        font-size: 14px;
+    }
+
+    .empty img {
+        width: 550px;
+    }
+
+    .empty button {
+        padding: 13px 35px;
+        background-color: #dd1470;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+    }

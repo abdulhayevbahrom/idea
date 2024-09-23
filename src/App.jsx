@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./routes/home/Home";
 import Heart from "./routes/heart/Heart";
 import SinglePage from "./routes/singlePage/SinglePage";
+import Compare from "./routes/compare/Compare";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/heart" element={<Heart />} />
+        <Route path="/compare" element={<Compare />} />
         <Route path="/singlepage/:id" element={<SinglePage />} />
       </Routes>
     </div>

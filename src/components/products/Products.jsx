@@ -11,13 +11,19 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { addToHeart, removefromHeart } from "../../context/heartSlice";
+import { addToCompare, removefromCompare } from "../../context/compare"
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
   const heartData = useSelector((s) => s.heart);
+  const compare = useSelector((b) => b.compare);
   const addToFavorites = (product) => {
     dispatch(addToHeart(product));
   };
+  const addToCompare = (product) => {
+    console.log("taroz");
+    dispatch(addToCompare(product));
+  }
   return (
     <div className="products">
       <div className="products_navigation">
@@ -36,7 +42,8 @@ function Products({ title, data }) {
         {data?.map((item, index) => (
           <SwiperSlide key={index} className="product_slide_item">
             <div className="product_actions">
-              <LiaBalanceScaleSolid />
+              <LiaBalanceScaleSolid onClick={() => addToCompare(item)}/>
+              
               {heartData.some((i) => i.id === item.id) ? (
                 <FaHeart
                   className="redHeart"
