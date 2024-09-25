@@ -20,8 +20,7 @@ function Products({ title, data }) {
   const addToFavorites = (product) => {
     dispatch(addToHeart(product));
   };
-  const addToCompare = (product) => {
-    console.log("taroz");
+  const compareSlice = (product) => {
     dispatch(addToCompare(product));
   }
   return (
@@ -42,7 +41,9 @@ function Products({ title, data }) {
         {data?.map((item, index) => (
           <SwiperSlide key={index} className="product_slide_item">
             <div className="product_actions">
-              <LiaBalanceScaleSolid onClick={() => addToCompare(item)}/>
+            
+
+              <LiaBalanceScaleSolid onClick={() => compareSlice(item)}/>
               
               {heartData.some((i) => i.id === item.id) ? (
                 <FaHeart

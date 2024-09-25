@@ -1,10 +1,10 @@
 .compare {
     width: 100%;
     background-color: #f2f3f5;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .compare p {
@@ -88,7 +88,7 @@
 
 .compare .cards > p {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 20px;
     color: #282f3c;
     font-size: 18px;
@@ -153,4 +153,23 @@
         font-size: 15px;
         cursor: pointer;
         transition: 0.3s;
+    }
+
+    @media (max-width: 1006px) {
+        .compare .cards {
+            height: 350px;
+        }
+    }
+
+    @media (max-width: 952px) {
+        .compare {
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+    }
+
+    @media (max-width: 530px) {
+        .compare .cards {
+            overflow-x: auto;
+        }
     }

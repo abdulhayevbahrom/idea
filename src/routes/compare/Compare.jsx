@@ -11,6 +11,7 @@ function Compare() {
     const dispatch = useDispatch()
     const compareData = useSelector((ombor) => ombor.compare)
     const navigate = useNavigate();
+    console.log(compareData);
 
     let removefromCompareData = () => {
         dispatch(removefromCompare());
@@ -46,9 +47,10 @@ function Compare() {
                         <div key={index} className="card">
                             <FaRegTrashAlt onClick={() => dispatch(removefromCompare(item.id))} className='trash' />
                             <Link className='card_img'>
-                                <img src={item.img} alt="" />
+                                <img src={item.images[0]} alt="" />
                             </Link>
-                            <p>{item.p}</p>
+                            <b>{item.price} x 6 oy</b>
+                            <p>{item.name}</p>
                         </div>
                     )}
                         
