@@ -38,7 +38,7 @@ function Header() {
             <span>{heartData.length}</span>
             <p>Tanlanganlar</p>
           </Link>
-          <Link to={"/heart"}>
+          <Link to={"/card"}>
             <LuShoppingBag />
             <span>0</span>
             <p>Savatcha</p>
