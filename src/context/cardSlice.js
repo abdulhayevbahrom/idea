@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const cardSlice = createSlice({
-    name: "favorites",
+    name: "card",
     initialState: JSON.parse(localStorage.getItem("card")) || [],
     reducers: {
         addToCard: (state, action) => {

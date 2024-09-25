@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import { addToHeart, removefromHeart } from "../../context/heartSlice";
+import { addToCard } from "../../context/cardSlice";
 
 function Products({ title, data }) {
   const dispatch = useDispatch();
@@ -18,6 +19,7 @@ function Products({ title, data }) {
   const addToFavorites = (product) => {
     dispatch(addToHeart(product));
   };
+
   return (
     <div className="products">
       <div className="products_navigation">
@@ -59,7 +61,7 @@ function Products({ title, data }) {
               <button>
                 Hozirni o'zidayoq <br /> xarid qilish
               </button>
-              <button>
+              <button onClick={() => dispatch(addToCard(item))}>
                 <LuShoppingBag />
               </button>
             </div>
