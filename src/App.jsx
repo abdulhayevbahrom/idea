@@ -6,6 +6,7 @@ import Heart from "./routes/heart/Heart";
 import SinglePage from "./routes/singlePage/SinglePage";
 import Compare from "./routes/compare/Compare";
 import Card from "./routes/card/Card";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/singlepage/:id" element={<SinglePage />} />
         <Route path="/card" element={<Card />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

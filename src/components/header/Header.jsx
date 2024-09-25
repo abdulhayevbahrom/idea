@@ -12,6 +12,8 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const heartData = useSelector((s) => s.heart);
+  const cartData = useSelector((s) => s.card);
+  const compareData = useSelector((s) => s.compare);
   return (
     <header>
       <Headertop />
@@ -40,12 +42,12 @@ function Header() {
           </Link>
           <Link to={"/card"}>
             <LuShoppingBag />
-            <span>0</span>
+            <span>{cartData.length}</span>
             <p>Savatcha</p>
           </Link>
           <Link to={"/compare"}>
             <LiaBalanceScaleSolid />
-            <span>0</span>
+            <span>{compareData.length}</span>
             <p>Taqqoslash</p>
           </Link>
           <Link to={"/heart"}>

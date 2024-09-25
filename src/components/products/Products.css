@@ -139,10 +139,11 @@
   height: 48px;
   transition: 0.3s;
   color: #fff;
+  background-color: #c70f62;
 }
 
 .products .mySwiper .product_slide_item .buy_product button:nth-child(2):hover {
-  background-color: #c70f62;
+  background-color: #a80a51;
 }
 
 .products .mySwiper .product_slide_item .buy_product button:nth-child(2) svg {
@@ -152,5 +153,10 @@
 .products .mySwiper .product_slide_item .buy_product button:first-child:hover {
   transition: 0.3s;
   background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.product_item_orange_btn {
+  background-color: orange !important;
   color: #fff;
 }
