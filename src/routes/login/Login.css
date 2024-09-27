@@ -1,0 +1,80 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #22222280;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.loginForm {
+  width: 478px;
+  padding: 40px 32px;
+  background-color: #fff;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.loginForm > svg {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 20px;
+}
+
+.loginForm h4 {
+  font-weight: 550;
+  margin: 30px;
+}
+
+.loginForm input {
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #bdbdbd;
+  text-indent: 10px;
+}
+
+.loginForm .phoneInput {
+  width: 100%;
+}
+
+.loginForm .phoneInput > input {
+  width: 100%;
+  height: 50px;
+  text-indent: 0;
+  border-radius: 12px;
+  border: 1px solid #bdbdbd;
+}
+
+.react-international-phone-country-selector-button {
+  display: none !important;
+}
+
+.loginForm button {
+  height: 46px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+
+.loginForm a {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.loginForm p {
+  font-size: 14px;
+  font-weight: 550;
+}

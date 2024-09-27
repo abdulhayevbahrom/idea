@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import Headertop from "./Headertop";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FaBars } from "react-icons/fa6";
 import { FiSearch } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa6";
@@ -9,11 +9,18 @@ import { LiaBalanceScaleSolid } from "react-icons/lia";
 import { LuShoppingBag } from "react-icons/lu";
 import { LuUser2 } from "react-icons/lu";
 import { useSelector } from "react-redux";
+import Login from "../../routes/login/Login";
 
 function Header() {
+  const navigate = useNavigate();
   const heartData = useSelector((s) => s.heart);
   const cartData = useSelector((s) => s.card);
   const compareData = useSelector((s) => s.compare);
+
+  const [openLogin, setOpenLogin] = useState(false);
+  const [searchValue, setSearchValue] = useState("");
+  console.log(searchValue);
+
   return (
     <header>
       <Headertop />
@@ -29,10 +36,17 @@ function Header() {
           Mahsulotlar katalogi <FaBars />
         </button>
         <div className="searchbar">
-          <input type="text" placeholder="Qidiruv" />
-          <div className="glass">
+          <input
+            onChange={(e) => setSearchValue(e.target.value)}
+            type="text"
+            placeholder="Qidiruv"
+          />
+          <button
+            onClick={() => navigate(`/search/${searchValue}`)}
+            className="glass"
+          >
             <FiSearch />
-          </div>
+          </button>
         </div>
         <div className="navLinks">
           <Link to={"/heart"}>
@@ -50,12 +64,13 @@ function Header() {
             <span>{compareData.length}</span>
             <p>Taqqoslash</p>
           </Link>
-          <Link to={"/heart"}>
+          <Link onClick={() => setOpenLogin(true)}>
             <LuUser2 />
             <p>Kirish</p>
           </Link>
         </div>
       </nav>
+      {openLogin && <Login setOpenLogin={setOpenLogin} />}
     </header>
   );
 }

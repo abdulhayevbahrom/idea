@@ -7,6 +7,7 @@ import SinglePage from "./routes/singlePage/SinglePage";
 import Compare from "./routes/compare/Compare";
 import Card from "./routes/card/Card";
 import Footer from "./components/footer/Footer";
+import Search from "./routes/search/Search";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/compare" element={<Compare />} />
         <Route path="/singlepage/:id" element={<SinglePage />} />
         <Route path="/card" element={<Card />} />
+        <Route path="/search/:name" element={<Search />} />
       </Routes>
       <Footer />
     </div>

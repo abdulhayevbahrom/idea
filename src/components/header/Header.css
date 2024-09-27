@@ -1,5 +1,8 @@
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .header_top {
@@ -112,6 +115,7 @@ nav {
   justify-content: space-between;
   padding: 3% 30px;
   gap: 40px;
+  background-color: #fff;
 }
 
 nav img.logo {
@@ -167,6 +171,7 @@ nav .searchbar .glass {
   color: #9499a5;
   cursor: pointer;
   transition: 0.3s;
+  border: none;
 }
 
 nav .searchbar .glass:hover {

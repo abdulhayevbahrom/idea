@@ -44,13 +44,14 @@ function Products({ title, data }) {
         {data?.map((item, index) => (
           <SwiperSlide key={index} className="product_slide_item">
             <div className="product_actions">
-            {compare.some((i) => i.id === item.id) ? (
+              {compare.some((i) => i.id === item.id) ? (
                 <LiaBalanceScaleSolid
                   className="secondaryCompare"
+                  style={{ opacity: 1 }}
                   onClick={() => dispatch(removefromCompare(item.id))}
                 />
               ) : (
-              <LiaBalanceScaleSolid onClick={() => compareSlice(item)} />
+                <LiaBalanceScaleSolid onClick={() => compareSlice(item)} />
               )}
 
               {heartData.some((i) => i.id === item.id) ? (
