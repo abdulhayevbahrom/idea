@@ -49,7 +49,7 @@ function Compare() {
                             <Link className='card_img'>
                                 <img src={item.images[0]} alt="" />
                             </Link>
-                            <b>{item.price} x 6 oy</b>
+                            <b>{item.price} so'm x 6 oy</b>
                             <p>{item.name}</p>
                         </div>
                     )}

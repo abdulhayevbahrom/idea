@@ -160,3 +160,7 @@
   background-color: orange !important;
   color: #fff;
 }
+
+.products .mySwiper .product_slide_item .product_actions .secondaryCompare {
+  color: #eb5758;
+}
