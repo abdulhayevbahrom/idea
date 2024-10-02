@@ -32,9 +32,11 @@ function Header() {
             className="logo"
           />
         </Link>
-        <button className="catalogBtn">
-          Mahsulotlar katalogi <FaBars />
-        </button>
+        <Link to={'/katalog'}>
+          <button className="catalogBtn">
+            Mahsulotlar katalogi <FaBars />
+          </button>
+        </Link>
         <div className="searchbar">
           <input
             onChange={(e) => setSearchValue(e.target.value)}

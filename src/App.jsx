@@ -21,9 +21,9 @@ function App() {
         <Route path="/singlepage/:id" element={<SinglePage />} />
         <Route path="/card" element={<Card />} />
         <Route path="/search/:name" element={<Search />} />
+        <Route path="/katalog" element={<Katalog />} />
       </Routes>
       <Footer />
-      <Katalog />
     </div>
   );
 }

@@ -12,7 +12,7 @@
     height: 100%;
     background-color: #fff;
     overflow: auto;
-    padding: 10px 0 0 10px;
+    padding: 15px 0 15px 10px;
 }
 
 .katalog .left .left_item {
@@ -25,7 +25,7 @@
     padding: 7px 12px;
 }
 
-.katalog .left .left_items {
+.katalog .left .left_item:hover {
     width: 100%;
     min-height: 38px;
     display: flex;
@@ -42,6 +42,38 @@
     width: 763px;
     height: 100%;
     background-color: #fff;
+    padding: 20px;
+    line-height: 35px;
+}
+
+.katalog .medium h1 {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.katalog .medium .smart b {
+    margin-top: 30px;
+    color: #000;
+}
+
+.katalog .medium .smart p {
+    font-size: 14px;
+    color: #b6b4b4;
+}
+
+.katalog .medium .smart span {
+    display: flex;align-items: center;
+    color: #d82549;
+}
+
+.katalog .medium .smart span:hover {
+    color: #f2748d;
+}
+
+.katalog .medium .smart span:hover svg {
+    margin-top: 5px;
+    transition: 0.5s;
 }
 
 .katalog .right {

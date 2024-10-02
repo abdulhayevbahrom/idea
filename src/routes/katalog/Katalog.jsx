@@ -1,5 +1,6 @@
 import React from 'react';
 import './Katalog.css';
+import { GoChevronDown } from "react-icons/go";
 import { FaChevronRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
@@ -7,7 +8,7 @@ function Katalog() {
     return (
         <div className='katalog'>
             <div className="left">
-                <div className="left_items">
+                <div className="left_item">
                     <span>Smartfonlar</span>
                     <FaChevronRight />
                 </div>
@@ -62,14 +63,14 @@ function Katalog() {
             </div>
             <div className="medium">
                 <h1>Smartfonlar</h1>
-                <Link>
+                <Link className='smart' to={"/"}>
                     <b>Smartfonlar</b>
                     <p>Smartfonlar Apple</p>
                     <p>Smartfonlar Samsung</p>
                     <p>Smartfonlar Huawei</p>
                     <p>Smartfonlar Xiaomi</p>
                     <p>Smartfonlar VIVO</p>
-                    <span>Koʻproq koʻrsatish </span>
+                    <span>Koʻproq koʻrsatish <GoChevronDown /></span>
                 </Link>
             </div>
             <div className="right">
