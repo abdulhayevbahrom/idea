@@ -1,5 +1,9 @@
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .header_top {
@@ -64,6 +68,7 @@ header {
   border-radius: 12px;
   box-shadow: 0 2px 22px #0000001c;
   padding: 24px 34px 10px;
+  z-index: 3;
 }
 
 .languages::after {
