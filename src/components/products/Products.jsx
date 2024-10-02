@@ -26,6 +26,7 @@ function Products({ title, data }) {
   const compareSlice = (product) => {
     dispatch(addToCompare(product));
   };
+  console.log(data);
   return (
     <div className="products">
       <div className="products_navigation">
@@ -49,19 +50,19 @@ function Products({ title, data }) {
                   className="secondaryCompare"
                   style={{ opacity: 1 }}
                   onClick={() => dispatch(removefromCompare(item.id))}
-                />
-              ) : (
-                <LiaBalanceScaleSolid onClick={() => compareSlice(item)} />
-              )}
+                  />
+                  ) : (
+                    <LiaBalanceScaleSolid onClick={() => compareSlice(item)} />
+                    )}
 
               {heartData.some((i) => i.id === item.id) ? (
                 <FaHeart
-                  className="redHeart"
-                  onClick={() => dispatch(removefromHeart(item.id))}
+                className="redHeart"
+                onClick={() => dispatch(removefromHeart(item.id))}
                 />
-              ) : (
-                <FaRegHeart onClick={() => addToFavorites(item)} />
-              )}
+                ) : (
+                  <FaRegHeart onClick={() => addToFavorites(item)} />
+                  )}
             </div>
             <Link to={`singlepage/${item.id}`} className="product_img">
               <img src={item.images[0]} alt="" />
