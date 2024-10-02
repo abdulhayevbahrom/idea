@@ -8,7 +8,6 @@ import Compare from "./routes/compare/Compare";
 import Card from "./routes/card/Card";
 import Footer from "./components/footer/Footer";
 import Search from "./routes/search/Search";
-import Katalog from "./routes/katalog/Katalog";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <Route path="/search/:name" element={<Search />} />
       </Routes>
       <Footer />
-      <Katalog />
     </div>
   );
 }

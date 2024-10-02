@@ -10,6 +10,7 @@ import { LuShoppingBag } from "react-icons/lu";
 import { LuUser2 } from "react-icons/lu";
 import { useSelector } from "react-redux";
 import Login from "../../routes/login/Login";
+import Katalog from "../../routes/katalog/Katalog";
 
 function Header() {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ function Header() {
 
   const [openLogin, setOpenLogin] = useState(false);
   const [searchValue, setSearchValue] = useState("");
-  console.log(searchValue);
+  const [katalogState, setKatalogState] = useState(false);
 
   return (
     <header>
@@ -32,9 +33,15 @@ function Header() {
             className="logo"
           />
         </Link>
-        <button className="catalogBtn">
+
+        <button
+          onClick={() => setKatalogState(!katalogState)}
+          className="catalogBtn"
+        >
           Mahsulotlar katalogi <FaBars />
+          {katalogState && <Katalog />}
         </button>
+
         <div className="searchbar">
           <input
             onChange={(e) => setSearchValue(e.target.value)}
