@@ -13,7 +13,7 @@ function Katalog() {
           <li key={index} className="katalogSidebarItem">
             {item.title} <FaChevronRight />
             <div className="extraLinks">
-              <h3>{item.title}</h3>
+              <h1>{item.title}</h1>
               <div className="extraLinksWrapper">
                 {item.catalogItemData.map((extra, index) => (
                   <div>
