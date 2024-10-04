@@ -5,6 +5,8 @@ import { FaChevronUp, FaLocationDot } from "react-icons/fa6";
 import { FaChevronDown, FaPhoneAlt } from "react-icons/fa";
 import rusFlag from "../../assets/russia.png";
 import uzbFlag from "../../assets/uzbekistan.png";
+import Action from "../../routes/action/Action";
+import Shops from "../../routes/shops/Shops" 
 
 function Headertop() {
   const [langState, setLangState] = useState(false);
@@ -18,7 +20,7 @@ function Headertop() {
   return (
     <div className="header_top">
       <div className="left">
-        <Link to={"/sales"}>
+        <Link to={"/action"}>
           <FiPercent /> Aksiya va chegirmalar
         </Link>
         <Link to={"/shops"}>

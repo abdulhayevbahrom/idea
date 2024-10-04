@@ -1,0 +1,69 @@
+.action {
+    width: 100%;
+    height: 1258px;
+    background-color: #f2f3f5;
+    padding: 30px 3%;
+}
+
+.action p {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.action p > span {
+    color: #dd1470;
+}
+
+.action p > span > svg {
+    margin-right: 5px;
+}
+
+.action .actionCards {
+    width: 100%;
+    height: 1136px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 30px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.action .actionCards .actionCard {
+    width: 444px;
+    height: 372px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+.action .actionCards .actionCard > img {
+    height: 249px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.action .actionCards .actionCard > h2 {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #242424;
+    transition: 0.3s;
+}
+
+.action .actionCards .actionCard > h2:hover {
+    color: #dd1470;
+}
+
+.action .actionCards .actionCard > p {
+    font-size: 14px;
+    color: #828282;
+    margin-top: 10px;
+}
