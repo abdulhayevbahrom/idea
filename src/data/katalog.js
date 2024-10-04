@@ -152,6 +152,9 @@
 //     }
 // ]
 
+
+
+
 export const catalogData = [
   {
     title: "Smartfonlar",
@@ -160,36 +163,24 @@ export const catalogData = [
         catalogItemTitle: "Smartfonlar",
         catalogItemLinks: [
           {
-            title: "Smartfonlar apple",
+            title: "Smartfonlar Apple",
             link: "apple",
           },
           {
-            title: "Smartfonlar samsung",
+            title: "Smartfonlar Samsung",
             link: "samsung",
           },
           {
-            title: "Smartfonlar xiaomi",
-            link: "xiaomi",
-          },
-          {
-            title: "Smartfonlar huawei",
+            title: "Smartfonlar Huawei",
             link: "huawei",
           },
           {
-            title: "Smartfonlar vivo",
+            title: "Smartfonlar Xiaomi",
+            link: "xiaomi",
+          },
+          {
+            title: "Smartfonlar Vivo",
             link: "vivo",
-          },
-          {
-            title: "Smartfonlar korsatish",
-            link: "korsatish",
-          },
-          {
-            title: "Smartfonlar sony",
-            link: "sony",
-          },
-          {
-            title: "Smartfonlar nokia",
-            link: "nokia",
           },
         ],
       },
@@ -201,56 +192,407 @@ export const catalogData = [
     catalogItemData: [
       {
         catalogItemTitle: "Audio tizimlar",
-        catalogItemLinks: [
-          {
-            title: "Sambufer",
-            link: "/",
-          },
-          {
-            title: "Music center",
-            link: "/",
-          },
-        ],
-      },
-      {
-        catalogItemTitle: "Kronshteynlar",
-        catalogItemLinks: [
-          {
-            title: "Sambufer",
-            link: "/",
-          },
-          {
-            title: "Music center",
-            link: "/",
-          },
-        ],
+        catalogItemLinks: [],
       },
       {
         catalogItemTitle: "Tyunerlar va TV-pristavkalar",
+        catalogItemLinks: [],
+      },
+      {
+        catalogItemTitle: "Televizorlar",
+        catalogItemLinks: [],
+      },
+      {
+        catalogItemTitle: "Kronshteynlar",
+        catalogItemLinks: [],
+      },
+    ],
+  },
+
+  {
+    title: "Maishiy texnika",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Iqlim texnikasi",
         catalogItemLinks: [
           {
-            title: "Sambufer",
-            link: "/",
+            title: "Konditsionerlar",
           },
           {
-            title: "Music center",
-            link: "/",
+            title: "Ventilyatorlar",
+          },
+          {
+            title: "Havo tozalagichlar",
+          },
+          {
+            title: "Havo namlagichlar",
+          },
+          {
+            title: "Suv isitgichlar",
           },
         ],
       },
       {
-        catalogItemTitle: "Televizorlar",
+        catalogItemTitle: "Biriktiladigan texnikalar",
         catalogItemLinks: [
           {
-            title: "Sambufer",
-            link: "/",
+            title: "Dudbo'ronlar",
           },
           {
-            title: "Music center",
-            link: "/",
+            title: "Pishirish panelini",
+          },
+          {
+            title: "Pechlar",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "BKatta maishiy texnika",
+        catalogItemLinks: [
+          {
+            title: "Oshxona plitalari",
+          },
+          {
+            title: "Kir yuvish mashinalari",
+          },
+          {
+            title: "Sovutgichlar",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "Uy uchun kichik texnika",
+        catalogItemLinks: [
+          {
+            title: "Chang yutgichlar",
+          },
+          {
+            title: "Dazmollar",
+          },
+          {
+            title: "Tikuv mashinalari",
+          },
+          {
+            title: "Tarozilar",
+          },
+          {
+            title: "Bugʻlagichlar",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "Oshxona uchun kichik jihozlar",
+        catalogItemLinks: [
+          {
+            title: "Mikroto'lqinli pechlar",
+          },
+          {
+            title: "Mini pechlar",
+          },
+          {
+            title: "Blenderlar",
+          },
+          {
+            title: "Qahva qaynatgichlar",
+          },
+          {
+            title: "Qahva maydalagichlar",
           },
         ],
       },
     ],
+  },
+  {
+    title: "Go'zallik va so'glik",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Soch tekislagichlar",
+        catalogItemLinks: [],
+      },
+      {
+        catalogItemTitle: "Soch toʻgʻrilash vositalari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Trimmerlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Soch quritgichlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Soch quritgich choʻtkalari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Epilyatorlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Soqol olish mashinalari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Elektr tish cho'tkalari",
+        catalogItemLinks: []
+      }
+    ],
+  },
+  {
+    title: "Noutbuklar va kompyuterlar",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Noutbuklar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Routerlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Ryukzaklar va sumkalar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Kompyuterlar",
+        catalogItemLinks: [
+          {
+            title: "Monobloklar"
+          }
+        ]
+      },
+      {
+        catalogItemTitle: "Tarkibiy qismlar",
+        catalogItemLinks: [
+          {
+            title: "Klaviaturalar",
+            link: "apple",
+          },
+          {
+            title: "Klaviaturalar va sichqonchalar",
+            link: "samsung",
+          },
+          {
+            title: "Sichqonchalar",
+            link: "huawei",
+          },
+          {
+            title: "Monitorlar",
+            link: "xiaomi",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "Printerlar",
+        catalogItemLinks: [
+          {
+            title: "KFQ printerlari",
+          },
+          {
+            title: "Printerlar",
+          }
+        ]
+      },
+      {
+        catalogItemTitle: "Ma'lumot saqlash vositalari va boshqalar",
+        catalogItemLinks: [
+          {
+            title: "Uzaytirgichlar",
+          },
+          {
+            title: "Flesh xotira",
+          }
+        ]
+      },
+      {
+        catalogItemTitle: "Qattiq disklar",
+        catalogItemLinks: []
+      },
+    ],
+  },
+  {
+    title: "Gadjetlar va aksessuarlar",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Planshetlar",
+        catalogItemLinks: [],
+      },
+      {
+        catalogItemTitle: "Smart-soatlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Fitnes bilaguzuklar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Quloqchinlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Tashqi xotiralar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Akkumulyatorlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Zaryadlash qurilmalari",
+        catalogItemLinks: []
+      },
+    ],
+  },
+  {
+    title: "Avto zona",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Poklik va tozalik",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Tyuning va xavfsizlik",
+        catalogItemLinks: [
+          {
+            title: "Радар-детекторы",
+          },
+          {
+            title: "Avtosignalizatsiyalar",
+          },
+          {
+            title: "Videoregistratorlar",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "Qulayliklar va aksessuarlar",
+        catalogItemLinks: [
+          {
+            title: "Avtomobil gilamchalari",
+          },
+        ],
+      },
+      {
+        catalogItemTitle: "Avtotovush",
+        catalogItemLinks: [
+          {
+            title: "Avtomobil akustikasi",
+          },
+          {
+            title: "Avtomagnitolalar",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    title: "Ta'mirlash uchun asboblar",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Perforatorlar",
+        catalogItemLinks: [],
+      },
+      {
+        catalogItemTitle: "Drellar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Bolgarkalar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Maysa o'rish qurilmalari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Kesish va arralash asboblari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Asboblar to'plami",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Stabilizatorlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Payvandlash apparatlari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Shurup buragichlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Issiqlik moslamalari",
+        catalogItemLinks: []
+      },
+    ],
+  },
+  {
+    title: "Bolalar uchun tovarlar",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Elektromobillar",
+        catalogItemLinks: []
+      }
+    ]
+  },
+  {
+    title: "Video kuzatuv tizimlari",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Video kuzatuv tizimlari",
+        catalogItemLinks: [
+          {
+            title: "Video kuzatuv tizimlari Ezviz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    title: "Ofis va uy uchun mebel",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Statsionar telefonlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Kiyim quritgichlar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Dazmol stollari",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Kreslolar",
+        catalogItemLinks: []
+      },
+    ]
+  },
+  {
+    title: "Oshxona buyumlari",
+    catalogItemData: [
+      {
+        catalogItemTitle: "Choynaklar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Kostryulkalar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Tovalar",
+        catalogItemLinks: []
+      },
+      {
+        catalogItemTitle: "Qozonlar",
+        catalogItemLinks: []
+      },
+    ]
   },
 ];
